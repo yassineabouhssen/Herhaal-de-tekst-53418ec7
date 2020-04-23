@@ -1,9 +1,6 @@
 <?php
 $tekst = "Hello World!";
-echo $tekst;
-echo $tekst;
-echo $tekst;
-echo $tekst;
-echo $tekst;
+echo str_repeat($tekst, 5);
+
 
 ?>
